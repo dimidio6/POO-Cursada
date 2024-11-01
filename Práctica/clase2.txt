@@ -1,0 +1,3 @@
+Un archivo para cada clase, no hacer varias clases en UN archivo, se va a hacer alto quilombo.
+--------------------------------
+Respecto a Java, hay q hacer una clase principal a partir de dónde se desprenden las otras, es algo propio de este lenguaje.

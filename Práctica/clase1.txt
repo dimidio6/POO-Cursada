@@ -1,0 +1,36 @@
+Un método puede ser:
+- = privado
++ = público
+# = protegido
+-------------
+(métodos --> las operaciones)
+-------------
+UML: Diagrama para hacer clase.
+Hay distintos tipos de diagramas. En la materia sólo vemos UML y medio "por encima".
+A partir del punto 2 en adelante (ejercicios tipo parcial) no es necesario realizar el cuerpo del código, sólo el encabezado está bien. 
+
+---------------------------------------------
+PUNTO 2
+
+Objetos:
+--------
+Producto
+Integer
+String
+Lista de Producto
+--------
+Ticket --- métodos ---> Calcular total
+(No recomendable meter GET y SET en esta parte, ya que lo hace para toda la clase, si no lo utilizo me queda código innecesario)
+--------
+3 instancias para Producto.
+----------------------
+----------------------
+SET y GET = Métodos que le permiten a una CLASE, acceder y modificar los atributos de otra CLASE. Para esto tienen que ser PÚBLICOS.
+------------------------
+A medida que hacemos el programa vamos especificando más.
+Comenzamos desarrollando las clases más generales y vamos especificando y heredando
+----------------------
+Void = NO DEVUELVE NADA.
+Para concatenar en Java: +
+En Python hay muchas formas.
+

@@ -1,0 +1,26 @@
+19/08
+
+A menos q lo pidan explícitamente, ya NO se hace ingresos por consola, de acá en adelante no más.
+Es mejor directamente meterle los datos para no perder tiempo en eso. Si queremos meter varios datos directamente hacer un FOR.
+-----------------------------
+PREGUNTA DE FINAL: Qué tipos de Herencia hay?
+-------------------------------------------
+Lo que está más arriba en la Herencia es más ABSTRACTO.
+Lo que está más abajo en la Herencia es más ESPECÍFICO.
+
+Vemos ejemplo en clase:
+
+Espadachín, Mago y Ladrón son 3 Clases distintas.
+Vemos cómo estas 3 comparten cosas en común, perteneciendo a una clase MÁS abstracta: PERSONAJE.
+--------------------
+en JAVA:
+
+super referencia al Constructor de "más" arriba.
+el super no necesariamente tiene que ser utilizado al principio, puede escribirse en cualquier parte del método.
+si no utilizo el super SOBREESCRIBO el método.
+Java sólo tiene Herencia SIMPLE (puede emular la múltiple)
+Constantes: TODO en MAYUSUCLA
+
+void me permite reescribir un método o agregarle algo. Se evalúa en función del caso, a veces sirve sólo agregar algo para reutilizar código, o tal vez no me sirve cómo lo hace el padre y es preferible reescribirlo de 0 de otra forma. (tiene que ver con el Polimorfismo).
+-------------
+CONCEPTUALMENTE, los getters y setters se utilizan para acceder por FUERA de la clase, dentro de las mismas clases o subclases no suele utilizarse, de esta forma cobra sentido el: public, prottected, private.

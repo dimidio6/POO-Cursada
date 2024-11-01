@@ -1,0 +1,58 @@
+21/06
+
+Clases abstractas
+-----------------
+
+Las clases abstractas no crean objetos, definen comportamiento.
+
+Sobreescritura/Override: Sobrescribir un método de la clase padre. Si hago sobreescritura y a la vez uso super, logro EXTENSIBILIDAD.
+---------
+Timothy A. Budd: autor a leer, hay cosas tanto en inglés y español.
+"An Introduction to Object Oriented Programming" libro que se utiliza en la materia.
+---------
+
+Herencia múltiple
+-----------------
+
+Diapo 14: Aunque están como parámetros tanto la clase Padre cómo Madre, respeta el orden de izquierda a derecha a la hora de usar el super, viendo cuál es la primer clase que cumple con los criterios del llamado.
+
+Diapo 16: Tal vez distinto a lo esperado, el resultado de la ejecución es:
+1 1 1 2
+La super_superclase fue invocada 2 veces, esta clase de cosas podrían complicar las cosas en otra clase de problemas.
+
+Diapo 17: MRO, importante tener en cuenta el orden.
+
+Diapo 19: Es Mixin, NO herencia. La base de datos y el servidor no son un log, sino que necesitan de su comportamiento. 
+---------------------------------------------
+Polimorfismo ad-hoc/estático puede verse en el mismo código. El dinámico ya no se ve tan claramente.
+En Python el polimorfismo estático no se ve tan claro, ya que no hay que declarar el tipo de las variables.
+
+El polimorfismo dinámico/sobreescritura/override implementa HERENCIA
+
+Diapo 27: Duck Typing
+Todos los animales están en una misma lisa sin tener en común una clase padre. El foco está en lo que el objeto sabe HACER, no cómo está declarado.
+(Es una forma)
+----------------------------------------------
+
+Interfaces
+----------
+
+Interfaz = Contrato.
+Una interfaz es una clase cómo otra. El cuerpo se lo da la clase que la llama.
+2 TIPOS DE INTERFACES
+- Informal: Las clases que la solicitan le dan cuerpo.
+- Formal: Mas o menos lo mismo, pero la clase interfaz es ABSTRACTA. Esta puede tener atributos y métodos.
+Recomendación del profe: usemos Interfaz FORMAL.
+
+Ultima diapo ejercicio para realizar. Sucede polimorfismo dinámico, hay que ver como implementar el estático.
+
+-----------
+-----------
+-----------
+En Java, "shuffle" mezcla los elementos de un arreglo.
+----------------
+Ejemplo de JuegoConHerencia (en Java), línea 28: Polimorfismo dinámico. Es dinámico porque sabe qué Personaje ataca en TIEMPO DE EJECUCIÓN, no puedo verlo en tiempo de compilación.
+----------------------------
+---------------------
+Una clase abstracta puede NO tener ningún método abstracto, y seguir siendolo.
+Una clase NO abstracta NO puede tener un método abstracto.

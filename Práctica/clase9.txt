@@ -1,0 +1,18 @@
+02/09
+
+INTERFAZ
+--------
+
+Interfaz significa --> SABE HACER. Esto es DISTINTO DE LA HERENCIA.
+
+En Python una Clase Abstracta y una Interfaz pueden verse parecidas a simple vista, una forma de diferenciarla rápidamente puede ser ver que en el caso de que NO haya ningún método desarrollado, suele corresponder a una INTERFAZ.
+
+Cuando defino una interfaz para una clase, esto implica que en la clase deben definirse TODOS los métodos de esta Interfaz.
+----------------------
+Repasando los principios SOLID que habíamos visto en Teoría:
+
+S
+O
+L
+I ---> refiere a NO tener 99999 métodos en mi interfaz. NO suelo usar todos.
+D

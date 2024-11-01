@@ -1,0 +1,7 @@
+14/08
+
+IF CORTO
+
+Java: ?
+
+Python: (primero lo q pasa si = true) …

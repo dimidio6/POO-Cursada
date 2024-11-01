@@ -1,0 +1,9 @@
+Clase 23/09 correcciones de los profes:
+
+- Los atributos de la Clase Padre son: PROTECTED, todos.
+
+- Visibilidad de los métodos. Si sólo accede las clases hijas deben ser PROTECTED.
+
+- Acceso al atributo de un objeto sin el get. En la clase Pokémon, método ataque, hice: pokemon._debilidad | ERROR | sería: pokemon.getDebilidad(), YA que es un OBJETO distinto, conceptualmente está mal.
+
+- HERENCIA: NO hacia falta en una clase hija volver a escribir el método si NO AGREGO NADA al mismo. Directamente NO se escribe. Error grave del concepto de Herencia.

@@ -1,0 +1,11 @@
+04/09
+
+Para instalar una librería en Python:
+
+	En la terminal poner:
+
+	pip install "nombre de la librería"
+
+Librerías a instalar:
+	- Pygame
+	- Pyqt6 (para la interfaz gráfica)

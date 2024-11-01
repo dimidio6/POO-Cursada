@@ -1,0 +1,20 @@
+04/10
+
+JFrame (estamos viendo en Java)
+
+no usar getter para contentPane, no se va a ver la ventana.
+
+setLocationRelativeIo (null) --> en el parámetro referencio a otra ventana, para que se abra la ventana en la misma ubicación.
+--------
+en Java todo frame tiene un panel por defecto
+en Python todo frame tiene un contenedor por defecto
+---------
+
+MODELO VISTA CONTROLADOR
+
+Se puede reutilizar el modelo para otra vista, o cambiar el código del modelo y utilizar la misma vista.
+
+-----
+Java Swing = librería de vistas. no es buena para trabajar con hilos. En la documentación de Java (Oracle) esto aparece como EDT.
+
+No entra Interfaces gráficas en los parciales.

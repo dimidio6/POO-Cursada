@@ -1,0 +1,40 @@
+4 pilares fundamentales del Paradigma OO:
+- Abstracción
+- Encapsulamiento
+- Herencia
+- Polimorfismo
+------------------------------
+Para Examen Final de la materia
+entender el Paradigma OO
+entender estos 4 conceptos
+-------------------------
+La clase es un modelo para crear Instancias que comparten Datos y Métodos.
+----------
+El Encapsulamiento en una Clase se puede lograr poniendo sus métodos en privado. Una clase se visualiza cómo una CAJA NEGRA.
+-----------
+Python NO tiene el: Public, Private, Protected. Por eso la comunidad generó:
+Para:
+- Public: NO tiene de prefijo _
+- Protected: _ cómo prefijo
+- Private: doble _
+Python no limita esto, solo es una convención.
+-------------------
+Viendo el código del PDF (diapo 9)
+Mirar cómo esta el código indentado en Python, en el código se ve como, dónde se define la clase, está indentado, (el constructor y los 2 métodos).
+Clases: Con Mayúscula, para diferenciar a simple vista de Clase y Objeto.
+Self = refiere al objeto.
+----------------------
+Diapo 17
+@staticmethod: no lleva parámetro, utilizado para funciones de utilidad.
+-----------------------
+Diapo 23
+Getter y Setters
+
+Property solo para Get
+----------------------
+STYLE GUIDE PYTHON
+Cómo un "estándar" para la forma de escribir el código en Python, para entenderse entre programadores, cómo por ejemplo lo de los guiones bajos (_) para Private, Public, etc.
+Ver al respecto: https://peps.python.org/pep-0008/
+--------------------------------------------------
+
+

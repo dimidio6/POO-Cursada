@@ -1,0 +1,53 @@
+19/08
+
+Casteo: Pasar un dato de un tipo de dato a otro tipo de datos.
+Por ejemplo una variable tipo float a un tipo string.
+-----------------------------------------------------
+HASHMAP: Tabla de 2 columnas: KEYS | Valores
+-----------------------------------------------------
+En JAVA:
+@Override sobrescribe un método
+--
+en un método de clase no utilizamos el: this. Puede accederse desde la clase misma
+-------------------------------------------------------
+-------------------------------------------------------
+	|| HERENCIA y POLIMORFISMO ||
+	-----------------------------
+
+Sirven para: REUTILIZACIÓN y EXTENSIBILIDAD
+-------
+Relaciones:
+
+	- Jerarquía de Herencia
+	- Agregación o composición: (en código por ej: una lista de)
+	- Lo conoce y puede enviar msj
+--------------------------------------------------------------------
+Herencia
+
+MÁS ABSTRACCIÓN (hacia arriba)  ∧
+				|
+				|
+MÁS ESPECIFICIDAD (hacia abajo) v
+----
+Herencia múltiple: Python HAY.
+		   Java no hay, sino algo similar.
+----
+La subclase debe poder sustituir a la clase si la herencia está bien planteada.
+
+¿Qué puede hacer una subclase?
+	- Heredar atributos, métodos y constructor de la superclase
+	- Agregar atributos y métodos
+	- Redefinir métodos
+	- Extender métodos
+	- Acceder a métodos del padre con super()
+	- Llamar al constructor con super()._init_(…) (desde la subclase)
+	- Polimorfismo (a ver en próx clases)
+--------------------
+-----
+CLASES ABSTRACTAS
+
+en Python se utiliza el parámetro: (ABC)
+
+Así como la clase, sus métodos también son abstractos.
+
+Diapo 10: Un ejemplo de esa clase abstracta dónde a distintas figuras le podemos calcular su área. No sabemos que figura es, por eso no desarrollamos más al respecto, es algo más abstracto, pero todas esas figuras comparten que pueden calcularse su área. Más abajo vemos cómo ya se especifica una Class Círculo.

@@ -1,0 +1,31 @@
+12/08
+
+punto 1 del TP: Ejercicio de FINAL o PROMO
+------------------
+punto 2
+1era imagen:
+no hay constructor, no hay atributos del objeto, solo de la clase
+los atributos deben ser privados
+2da imagen:
+cómo vamos a hacer los atributos privados entonces faltan los getters y setters
+------------------
+punto 3
+se tiene que hacer UN CONSTRUCTOR más
+tener más de un constructor nos permite crear el objeto de distintas formas, según se requiera. Por ejemplo, puedo tener un constructor sin parámetros para la creación de un objeto, y otro constructor con parámetros para la creación de otro objeto que lo requiera.
+------------
+------------
+POLIMORFISMO:
+en síntesis, que 2 cosas sepan hacer lo mismo de forma distinta
+
+Una forma de polimorfismo es la: Sobrecarga de método, lo que vimos recién con el tener MÁS de un constructor. podemos hacer muchos constructores distintos variando los parámetros que tenemos dentro, el lenguaje detecta los distintos parámetros (no podríamos hacer 2 constructores que tengan los mismos TIPOS de parámetros en el mismo orden, el lenguaje no sabría diferenciar cuál utilizar).
+EJEMPLOS clásicos de Polimorfismo:
+- arrancar una moto
+- arrancar una lancha
+- arrancar un auto
+Todos arrancan, lo hacen de distinta forma.
+----------------------------
+- un gato come
+- un perro come
+- un conejo come
+-----------------
+-----------------

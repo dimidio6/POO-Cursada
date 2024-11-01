@@ -1,0 +1,18 @@
+Teniendo en cuenta el siguiente problema analice y desarrolle el programa:
+
+Se tiene una plataforma de streaming llamada el Video Amigo. 
+De un usuario de la plataforma se conoce el nombre, apellido, mail y password. Cada usuario puede tener múltiples perfiles. Cada uno de ellos tiene un nombre para
+distinguirlo, si es para niños o no y además una lista de series y películas seleccionadas como favoritas.
+De las series y películas se conoce el nombre, año de emisión y calificación medido por estrellas de 1 a 5, siendo 1 mala y 5 muy buena. 
+Las series tienen una lista de capítulos con su nombre, orden y si fue visto o no. 
+La película tiene un indicador si fue vista o no.
+Tenga en cuenta que tanto película como serie deberá tener un método reproducir y que
+la serie tiene capítulos.
+
+apellido, nombre
+Perfil : ale
+One Pice (2023) 4 estrellas
+Usted se quedo en DareDevil capitulo 1
+Marveles (2023) 3 estrellas
+Mortal Kombat (2021) 2 estrellas
+Scarface (1983) 5 estrellas

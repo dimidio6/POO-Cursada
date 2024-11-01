@@ -1,0 +1,16 @@
+16/10
+
+Compartir datos entre procesos Pipe: el proceso Envío siempre tiene que mandar un None al finalizar el bucle, y el proceso Recepción tiene que tener en cuenta la condición del None para finalizar, sino nunca finaliza. La diferencia con Compartir datos entre procesos Queue es que esta última tiene la corroboración en que la estructura de datos esté vacía.
+
+Diapo 17: Locks. Problema de productor-consumidor
+Diapo 18: Con la librería "cpu_count" obtenemos la cantidad de procesadores disponibles. pool_map paraleliza una función con los datos que le damos.
+Sirve bastante para un procesamiento pesado.
+
+Daemon Process/Thread: ejs: contador de pasos, sistema de notificaciones del celu.
+
+------
+Fuentes:
+
+Dusty Phillips - Python 3 Object-oriented Programming-Packt Publishing (2015) capitulo 13
+
+https://superfastpython.com/learning-paths/

@@ -1,0 +1,39 @@
+28/08
+
+Principios SOLID
+----------------
+
+Single responsibility
+
+Se trata de evitar un ALTO acople.
+------
+Diapo 5: Open - Closed
+
+Extensión: (herencia)
+Modificación: (encapsulamiento)
+------
+Diapo 8: Liskov Substitution
+
+Una subclase debe poder sustituir a su superclase.
+
+en el ejemplo no está planteada la parte abstracta, no es lo suficientemente abstracto. Supone que todos los animales tienen patas.
+------
+Diapo 11: Dependency Inversión
+el principio más difícil de entender¿
+Ejemplo centrado en una Base de datos.
+Sus concreciones son Postgres, MySQL. El sistema no debe depender de la implementación de estos, sino directamente de la Base de datos. En un futuro podría utilizar otro motor, o incluso otro tipo de Base de datos que no sea relacional.
+En la diapo: imagen izq: como no debería ser. imagen der: como debería ser.
+Ver archivo de Notebook de la clase: notebook_solid.
+------
+Ejercicio notebook
+------------------
+El método parsear_json está mal.
+La clase tiene más responsabilidades de lo q debería.
+Tratar de mantener la balanza entre tener en cuenta los conceptos del Paradigma y ser práctico y eficiente para resolver el problema.
+----
+EjercicioIdentificar
+--------------------
+src - DesarrolladorBackend
+Testear debería hacerlo alguien fuera del código.
+------
+Leer: "Agile Software Development, Principles, Patterns, and Practices" Robert C. Martin.

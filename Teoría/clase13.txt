@@ -1,0 +1,36 @@
+25/09
+
+		PATRONES DE DISEÑO
+		------------------
+
+Vamos a verlo más a detalle en Ingeniería de Software
+---------------------------------------------------------
+Pregunta de final, qué son patrones de diseño?
+El profe espera la 2da definición (pdf) más q nada: Son las soluciones a los problemas generales.
+-------------------------
+Diapo 3: Libros recomendamos para leer sobre Patrones de Diseño. El 2do es más fácil de entender al tener ejemplos de código, el profe recomienda que leamos este. El 1ro igual podemos verlo por curiosidad o si no entendemos algo del otro.
+-------------------------
+-------------------------
+	CREATIONAL PATTERNS
+	-------------------
+BUILDER
+
+Diapo 7:
+1. interfaz Builder = QUÉ
+2. ConcreteBuilder = CÓMO
+
+Client = Utiliza el sistema
+---------------------------
+Recordatorio --------
+A nivel programación la interfaz es igual que la Clase abstracta. Pero estas conceptualmente son distintas.
+Clase abstracta = La clase ES ESTO.
+Interfaz = La clase HACE ESTO.
+-------------------------------
+
+FACTORY METHOD
+
+-------------------------------
+
+SINGLETON
+
+Utiliza un MÉTODO STATIC (ESTÁTICO) = Utiliza el método sin la necesidad de declarar un OBJETO de la CLASE, sino que directamente utiliza el método.

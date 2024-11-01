@@ -1,0 +1,36 @@
+26/09
+		PATRONES DE DISEÑO
+		------------------
+
+	STRUCTURAL PATTERNS (Patrones Estructurales)
+
+COMPOSITE
+
+Para utilizarlo el modelo central debe poder representarse cómo un ÁRBOL.
+
+	- Component: Interfaz.
+	- Leaf: Deja de delegar el trabajo para devolver un valor.
+	- Composite: Contiene componentes de la misma interfaz. Se describe 	cómo se delegan las tareas
+	- Client: Utiliza los componentes mediante la interfaz (quién utiliza 	el módulo, no necesariamente el sistema).
+
+
+NOTA*: Recomendable tener ejemplos de USO de los Patrones para el PARCIAL, así sé cual utilizar.
+
+----------------------------------------
+
+DECORATOR (o Wrapper)
+
+Realiza subclases para extender o agregar funcionalidades.
+
+Diapo 28: 
+Lo que se abstrae es el * execute(), se va pisando.
+Base Decorator le agrega funcionalidades.
+
+NOTA*: en UML: flecha con líneas punteadas = IMPLEMENTA.
+-----------------------------------------
+
+FACADE
+
+Interfaz de acceso SIMPLE a algo más COMPLEJO.
+
+NOTA*: API: "Nexo" de una aplicación a otra para, por ejemplo, brindar información.

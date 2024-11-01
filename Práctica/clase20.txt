@@ -1,0 +1,8 @@
+16/10
+
+Concurrencia y Paralelismo
+
+Pregunta de Final*:
+Mientras tenga mas de un núcleo en el procesador, puedo trabajar con Paralelismo así cómo con Concurrencia. Cuando me quedo sin núcleos para utilizar, trabaja únicamente de Forma Concurrente.
+
+El profe Luna recomienda, siempre que tengamos que esperar una respuesta de otro proceso o hacer un procesamiento muy grande, trabajar con hilos.

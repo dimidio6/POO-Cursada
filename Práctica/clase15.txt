@@ -1,0 +1,18 @@
+02/10
+Clase virtual
+
+	Vemos: PATRONES DE DISEÑO - Base de Datos - IGU - MVC
+
+Página muy recomendada por los profes:
+https://refactoring.guru/es/design-patterns/singleton
+Sirve para preparar los finales, etc.
+
+Al empezar a leer libros sobre Patrones de diseño, tener en cuenta que es probable que los mismos patrones, según el autor, los implementen de manera distinta.
+
+DAO (Data Access Object) se encarga de realizar todas las peticiones a las Bases de Datos (abstrae que tipo de Base de datos es). El DAO se encarga de manejar con que Base de datos se trabaja y la/s consulta/s que se van a realizar. Luego el Modelo Usuario utiliza el Dao.
+
+El código visto en clase está en GitHub.
+
+Librería para cambiar cómo se ve la IGU (al menos en Java):
+https://www.formdev.com/flatlaf/
+En la documentación de flatlaf dice cómo aplicarla (hay que escribir código en tu programa)
