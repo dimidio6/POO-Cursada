@@ -10,4 +10,4 @@ Los hilos comparten los recursos. Entender la diferencia entre q un proceso util
 método run = para correrlo secuencialmente.
 método start = para paralelizar
 
-en Python utilizar THREADS únicamente para Operaciones GRANDES. En el caso de hacerlo para operaciones más pequeñas no se da una correcta parelización, por lo que usamos PROCESS (la mayoría de operaciones q vamos a hacer en la práctica).
+en Python utilizar THREADS únicamente para Operaciones GRANDES. En el caso de hacerlo para operaciones más pequeñas no se da una correcta paralelización, por lo que usamos PROCESS (la mayoría de operaciones q vamos a hacer en la práctica).

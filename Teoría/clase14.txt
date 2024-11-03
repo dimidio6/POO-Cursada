@@ -10,7 +10,7 @@ Para utilizarlo el modelo central debe poder representarse cómo un ÁRBOL.
 
 	- Component: Interfaz.
 	- Leaf: Deja de delegar el trabajo para devolver un valor.
-	- Composite: Contiene componentes de la misma interfaz. Se describe 	cómo se delegan las tareas
+	- Composite: Contiene componentes de la misma interfaz. Se describe cómo se delegan las tareas
 	- Client: Utiliza los componentes mediante la interfaz (quién utiliza 	el módulo, no necesariamente el sistema).
 
 
