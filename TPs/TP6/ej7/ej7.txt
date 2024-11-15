@@ -1,0 +1,5 @@
+7) Dado dicho escenario, se produciría una Race condition (condición de carrera), dónde ambas personas intentan acceder
+al mismo recurso.
+
+Para esto, se puede utilizar Lock, de la librería "threading", para bloquear el recurso hasta que una de las personas haya
+dejado de utilizarlo.
