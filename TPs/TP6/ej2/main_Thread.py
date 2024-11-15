@@ -1,4 +1,4 @@
-from threading import Thread
+from threading import Thread, Lock
 
 variable = 0
 
@@ -8,7 +8,8 @@ class Incremento(Thread):
     def run(self):
         global variable
         for i in range(5000):
-            variable += 1
+            with Lock():
+                variable += 1
         print(self.name + " termina ejecución, variable: " + str(variable))
 
 

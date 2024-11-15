@@ -15,13 +15,13 @@ class Incremento(Process):
 
 if __name__ == "__main__":
 
-    hilos = []
+    procesos = []
     for i in range(4):
-        hilo = Incremento()
-        hilos.append(hilo)
+        proceso = Incremento()
+        procesos.append(proceso)
 
-    for hilo in hilos:
-        hilo.start()
-        hilo.join()
+    for proceso in procesos:
+        proceso.start()
+        proceso.join()
 
     print("termina ejecución de programa")
