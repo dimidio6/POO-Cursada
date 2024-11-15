@@ -4,10 +4,14 @@ from Torta import Torta
 
 class ConcreteBuilderVainilla(BuilderTorta):
     def __init__(self):
-        self.torta = Torta()
+        self.__torta = Torta()
 
     def set_masa(self):
-        self.torta.masa = "Azucarada"
+        self.__torta.masa = "Azucarada"
 
     def set_relleno(self):
-        self.torta.relleno = "Vainilla"
+        self.__torta.relleno = "Vainilla"
+
+    @property
+    def torta(self):
+        return self.__torta
